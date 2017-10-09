@@ -134,5 +134,3 @@ addPlayerLetters(for: teamSharks, onTeam: "Team Sharks")
 for letter in letters {
     print(letter)
 }
- 
- 
