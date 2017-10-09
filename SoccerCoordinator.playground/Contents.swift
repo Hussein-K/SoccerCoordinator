@@ -123,17 +123,16 @@ func addPlayerLetters(for team: [[String: Any]], onTeam: String) {
     }
 }
 
-// Running the function for each team so that the letters are appended
+// Calling the function for each team so that the letters are appended
 
-addPlayerLetters(for: players, onTeam: "Team Dragons")
-addPlayerLetters(for: players, onTeam: "Team Raptors")
-addPlayerLetters(for: players, onTeam: "Team Sharks")
+addPlayerLetters(for: teamDragons, onTeam: "Team Dragons")
+addPlayerLetters(for: teamRaptors, onTeam: "Team Raptors")
+addPlayerLetters(for: teamSharks, onTeam: "Team Sharks")
 
 // Printing each player letter to the console
 
-print(letters)
- 
- 
- 
+for letter in letters {
+    print(letter)
+}
  
  
